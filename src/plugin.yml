@@ -1,0 +1,19 @@
+name: NotePlayer
+main: me.meibion.NotePlayer.Main
+version: 1.0
+author: Meibion
+api-version: 1.7.3
+commands:
+  playnote:
+    description: Plays a note at the players current location
+    usage: /<command> [Instrument] [Tone](#) [0-1]
+  instruments:
+    description: Outputs a list of instruments
+    usage: /<command>
+permissions:
+  NotePlayer.Play:
+    description: Allows playing a note
+    default: op
+  NotePlayer.Instruments:
+    description: Outputs a list of instruments
+    default: op
